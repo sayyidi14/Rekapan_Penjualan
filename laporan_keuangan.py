@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from datetime import datetime
 
-df = pd.read_excel("https://github.com/sayyidi14/Rekapan_Penjualan/blob/main/Laporan%20Keuangan.xlsx")
+df = pd.read_excel("Laporan Keuangan.xlsx")
 st.title("Laporan Keuangan")
 
 tanggal = st.date_input("Masukkan Tanggal")
